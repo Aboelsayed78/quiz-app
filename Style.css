@@ -1,0 +1,163 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+body{font-family: Arial, Helvetica, sans-serif;background-color: #DDD;}
+/*========================================================================================*/
+.start-screen{
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: rgba(17, 17, 17, .8);
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+}
+.start-screen button, input{
+   position: absolute;
+   top: 74%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 25px;
+   font-weight: bold;
+   text-transform: capitalize;
+   padding: 10px 15px;
+   background-color: #333;
+   color: #DDD;
+   border: 2px solid #CCC;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.start-screen input{
+   background-color: #FFF;
+   color: #333;
+   top: 62%;
+   font-size: 20px;
+   padding: 15px;
+   cursor: auto;
+}
+/*========================================================================================*/
+main{
+   width: 85%;
+   margin: 20px auto;
+   background-color: rgb(100, 100, 100);
+   padding: 5px;
+   overflow: hidden;
+   border-radius: 5px;
+}
+/*========================================================================================*/
+main .left{
+   float: left;
+   width: 30%;
+   border: 2px solid #222;
+   background-color: #333;
+   color: #EEE;
+   border-radius: 5px;
+}
+main .left h2{
+   text-transform: capitalize;
+   text-align: center;
+   margin: 20px 0;
+}
+/*============================================*/
+main .left .quiz-timer{
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+   padding: 20px 0;
+   border-top: 2px solid #222;
+   border-bottom: 2px solid #222;
+}
+/*============================================*/
+main .left .final-result{
+   padding: 20px 0;
+   text-align: center;
+   font-size: 18px;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+main .left .final-result .true,
+main .left .final-result .false{
+   background-color: #005803;
+   padding: 3px 5px;
+   border-radius: 4px;
+}
+main .left .final-result .false{background-color: #a00000;}
+/*========================================================================================*/
+main .right{
+   float: right;
+   width: 69.6%;
+   border: 2px solid #222;
+   background-color: #333;
+   color: #EEE;
+   border-radius: 5px;
+   overflow: hidden;
+}
+main .right .bullets ul{list-style: none;display: flex;}
+main .right .bullets ul li{
+   width: 200px;
+   background-color: rgb(100, 100, 100);
+   padding: 8px 0;
+   text-align: center;
+   font-weight: bold;
+}
+main .right .bullets ul li.true{background-color:#005803;}
+main .right .bullets ul li.false{background-color:#a00000;}
+main .right .bullets ul li.active{background-color: #333;}
+/*============================================*/
+main .right .quiz-block{font-weight: bold;position: relative;}
+main .right .quiz-block .question{
+   text-align: center;
+   margin: 25px 0;
+   font-size: 22px;
+}
+main .right .quiz-block .answers{
+   border-top: 1px solid #222;
+   position: relative;
+}
+main .right .quiz-block .answers span{
+   display: block;
+   padding: 15px 10px;
+   font-size: 18px;
+   border-bottom: 1px solid #222;
+   cursor: pointer;
+   text-indent: 10px;
+   transition: background-color .3s, text-indent .3s;
+}
+main .right .quiz-block .answers span:hover{background-color: rgb(100, 100, 100);text-indent: 15px;}
+main .right .quiz-block .answers span.true{background-color: #005803;}
+main .right .quiz-block .answers span.false{background-color: #a00000;}
+main .right .quiz-block .answers .question-end{
+   position: absolute;
+   display: none;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background-color: transparent;
+}
+main .right .quiz-block .quiz-end{
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background-color: #333;
+   display: none;
+}
+main .right .quiz-block .quiz-end h1{
+   width: 40%;
+   margin: 85px auto;
+   text-transform: capitalize;
+}
+/*============================================*/
+main .right .question-info{
+   padding: 5px;
+   display: flex;
+   justify-content: space-around;
+}
+main .right .question-info > div{
+   text-transform: capitalize;
+   font-weight: bold;
+   padding: 7px 10px;
+   border-radius: 5px;
+}
+main .right .question-info .result.true{background-color: #005803;}
+main .right .question-info .result.false{background-color: #a00000;}

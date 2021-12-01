@@ -1,0 +1,82 @@
+[
+   {
+      "#": "1",
+      "title": "Why we use <br>?",
+      "answer1": "to make the text bold",
+      "answer2": "to add breakline",
+      "answer3": "to add horizontal line",
+      "rightAnswer": "to add breakline"
+   },
+   {
+      "#": "2",
+      "title": "Why we use <hr>?",
+      "answer1": "to add horizontal line",
+      "answer2": "to make the text italic",
+      "answer3": "to add breakline",
+      "rightAnswer": "to add horizontal line"
+   },
+   {
+      "#": "3",
+      "title": "How to create a hyperlink in HTML?",
+      "answer1": "<a> link </a>",
+      "answer2": "<i> link </i>",
+      "answer3": "<b> link </b>",
+      "rightAnswer": "<a> link </a>"
+   },
+   {
+      "#": "4",
+      "title": "How to create a nested webpage in HTML?",
+      "answer1": "<a href='www.google.com'> link </a>",
+      "answer2": "<iframe src='www.google.com'></iframe>",
+      "answer3": "<img src='www.google.com'/>",
+      "rightAnswer": "<iframe src='www.google.com'></iframe>"
+   },
+   {
+      "#": "5",
+      "title": "Which of te following tags has more font size?",
+      "answer1": "<h1> text </h1>",
+      "answer2": "<h3> text </h3>",
+      "answer3": "<h6> text </h6>",
+      "rightAnswer": "<h1> text </h1>"
+   },
+   {
+      "#": "6",
+      "title": "Why we use <br>?",
+      "answer1": "to make the text bold",
+      "answer2": "to add breakline",
+      "answer3": "to add horizontal line",
+      "rightAnswer": "to add breakline"
+   },
+   {
+      "#": "7",
+      "title": "Why we use <hr>?",
+      "answer1": "to add horizontal line",
+      "answer2": "to make the text italic",
+      "answer3": "to add breakline",
+      "rightAnswer": "to add horizontal line"
+   },
+   {
+      "#": "8",
+      "title": "How to create a hyperlink in HTML?",
+      "answer1": "<a> link </a>",
+      "answer2": "<i> link </i>",
+      "answer3": "<b> link </b>",
+      "rightAnswer": "<a> link </a>"
+   },
+   {
+      "#": "9",
+      "title": "How to create a nested webpage in HTML?",
+      "answer1": "<a href='www.google.com'> link </a>",
+      "answer2": "<iframe src='www.google.com'></iframe>",
+      "answer3": "<img src='www.google.com'/>",
+      "rightAnswer": "<iframe src='www.google.com'></iframe>"
+   },
+   {
+      "#": "10",
+      "title": "Which of te following tags has more text size?",
+      "answer1": "<h1> text </h1>",
+      "answer2": "<h3> text </h3>",
+      "answer3": "<h6> text </h6>",
+      "rightAnswer": "<h1> text </h1>"
+   }
+]

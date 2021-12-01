@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Quiz App</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="Style.css">
+   </head>
+   <body>
+      <div class="start-screen">
+         <input type="text" placeholder="Your Name...">
+         <button>start quiz</button>
+      </div>
+      <main> 
+         <div id="user" class="left">
+            <h2>Guest</h2>
+            <div class="quiz-timer">02:30</div>
+            <div class="final-result">
+               you answerd 
+               <span class="true"></span> true and 
+               <span class="false"></span> false
+            </div>
+         </div>
+         <div id="quiz" class="right">
+            <div class="bullets">
+               <ul>
+                  
+               </ul>
+            </div>
+            <div class="quiz-block">
+               <div class="question"></div>
+               <div class="answers">
+                  <span class="answer1"></span>
+                  <span class="answer2"></span>
+                  <span class="answer3"></span>
+                  <div class="question-end"></div>
+               </div>
+               <div class="quiz-end">
+                  <h1>the quiz has ended</h1>
+               </div>
+            </div>
+            <div class="question-info">
+               <div class="counter"><span class="question-num"></span> of <span class="total-questions"></span></div>
+               <div class="result"></div>
+               <div class="countdown">01:00</div>
+            </div>
+         </div>
+      </main>
+      <script src="Script.js"></script>
+    </body>
+</html>
