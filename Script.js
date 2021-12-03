@@ -195,6 +195,6 @@ myRequest.onreadystatechange = function(){
    };
 };
 // Selecting the json file that contains the data
-myRequest.open('GET', 'Data.json', true);
+myRequest.open('GET', 'data.json', true);
 // Sending the request to get the json file
 myRequest.send();
